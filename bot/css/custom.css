@@ -1,0 +1,46 @@
+.slick-prev:before, .slick-next:before {
+    color: black !important;
+}
+
+.msg-carousel .template {
+    padding: 0 5px;
+}
+
+.template .card, .template .card-footer {
+    border: none;
+}
+.card .card-header, .card .card-body {
+    border: var(--bs-card-border-width) solid var(--bs-card-border-color)
+}
+
+.template .card-header, .template .card-footer {
+    padding: 0
+}
+
+.template .card-footer {
+    margin-top: 4px;
+}
+
+.template .card-header .header-image {
+    width: -webkit-fill-available;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.button-container .button-column {
+    width: 100%;
+    margin: 0 2px;
+}
+.button-container .button-column + .button-column {
+    width: 100%;
+    margin: 0 0 0 2px;
+}
+
+.button-column .btn {
+    width: 100%;
+    padding: 0;
+    margin-bottom: unset;
+}
+.button-column .btn + .btn {
+    margin-top: 4px;
+}
